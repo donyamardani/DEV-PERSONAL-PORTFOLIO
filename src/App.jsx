@@ -6,6 +6,7 @@ import Progect from './Sections/Progect'
 import Testimonials from './Sections/Testimonials'
 import Contact from './Sections/Contact'
 import Navbar from './Layout/Navbar'
+import Footer from './Layout/Footer'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Testimonials />
         <Contact />
       </main>
+      <Footer/>
     </div>
   )
 }

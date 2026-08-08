@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Progect() {
+export default function Projects() {
   return (
     <div></div>
   )

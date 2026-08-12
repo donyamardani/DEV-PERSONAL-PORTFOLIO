@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Children } from 'react'
 import Button from '../Components/Button'
 import AnimatedBorderButton from '../Components/AnimatedBorderButton'
 
@@ -49,8 +49,9 @@ const skills = [
         
       {/* Green Dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(30)].map((_, i) => (
+        {[...Array(30)].map((_, index) => (
           <div
+           key={index}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#20B2A6",
@@ -178,12 +179,14 @@ const skills = [
          </div>
 
       </div>
-      <div className='absolute bottom-8 left-1/2 translate-x-1/2 animate-fade-in animation-delay-800'>
-        <a href="#" className='flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group'>
-          <span className='text-xs uppercase tracking-wider'>
-            scrool
-          </span>
-          <ChevronDown className='w-6 h-6 animate-bounce'/>
+      
+      <div
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
+        <a href="#about"
+         className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+        >
+          <span className="text-xs uppercase tracking-wider">Scroll</span>
+          <ChevronDown className="w-6 h-6 animate-bounce" />
         </a>
       </div>
 

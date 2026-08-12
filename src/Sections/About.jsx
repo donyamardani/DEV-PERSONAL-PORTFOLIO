@@ -30,7 +30,7 @@ const highlights = [
 ];
   return (
     <section id='about' className='py-32 relative overflow-hidden '>
-      <div className='container mxx-auto px-6 relative z-10'>
+      <div className='container mx-auto px-6 relative z-10'>
         <div className='grid lg:grid-cols-2 gap-16 items-center'>
           {/* left column */}
           <div className='space-y-8 '>
@@ -91,7 +91,8 @@ const highlights = [
             ))}
           </div>
         </div>
-      </div>
+        </div>
+      
     </section>
   )
 }

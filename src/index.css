@@ -1,6 +1,16 @@
 @import "tailwindcss";
 
+/* دریافت فونت وزیرمتن از CDN */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+/* تنظیم فونت پیش‌فرض فارسی زمان فعال بودن جهت راست‌چین */
+[dir="rtl"] {
+  font-family: 'Vazirmatn', sans-serif;
+}
+
 @theme {
+  --font-vazir: 'Vazirmatn', sans-serif;
+
   --color-background: #0f1418;
   --color-foreground: #f0f2f5;
 
@@ -47,25 +57,24 @@
   .glass {
     background-color: color-mix(in srgb, var(--color-surface) 50%, transparent);
     backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
   }
 
   .glass-strong {
     background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
- backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-    border: 1px solid color-mix(in srgb, var(--color-border) 60%, transparent);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    /* بردر شفاف شد تا خط دور هدر هنگام اسکرول حذف شود */
+    border: 1px solid transparent; 
   }
 
   .glow-text {
-    text-shadow: 0 0 30px
-      color-mix(in srgb, var(--color-primary) 50%, transparent);
+    text-shadow: 0 0 30px color-mix(in srgb, var(--color-primary) 50%, transparent);
   }
 
   .glow-border {
-    box-shadow: 0 0 20px
-        color-mix(in srgb, var(--color-primary) 20%, transparent),
+    box-shadow: 0 0 20px color-mix(in srgb, var(--color-primary) 20%, transparent),
       inset 0 0 20px color-mix(in srgb, var(--color-primary) 5%, transparent);
   }
 }
@@ -85,8 +94,7 @@
   }
 
   @keyframes slow-drift {
-    0%,
-    100% {
+    0%, 100% {
       transform: translate(0, 0);
     }
     25% {
@@ -101,8 +109,7 @@
   }
 
   @keyframes float {
-    0%,
-    100% {
+    0%, 100% {
       transform: translateY(0);
     }
     50% {
@@ -110,12 +117,23 @@
     }
   }
 
+  /* حرکت اسکرول افقی استاندارد چپ به راست */
   @keyframes marquee {
     0% {
       transform: translateX(0);
     }
     100% {
       transform: translateX(-50%);
+    }
+  }
+
+  /* حرکت اسکرول افقی برای زبان‌های راست‌چین */
+  @keyframes marquee-rtl {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50%);
     }
   }
 
@@ -131,33 +149,18 @@
     animation: marquee 30s linear infinite;
   }
 
-  .animation-delay-100 {
-    animation-delay: 100ms;
+  /* اعمال انیمیشن معکوس در حالت فارسی */
+  [dir="rtl"] .animate-marquee {
+    animation: marquee-rtl 30s linear infinite;
   }
 
-  .animation-delay-200 {
-    animation-delay: 200ms;
-  }
-
-  .animation-delay-300 {
-    animation-delay: 300ms;
-  }
-
-  .animation-delay-400 {
-    animation-delay: 400ms;
-  }
-
-  .animation-delay-500 {
-    animation-delay: 500ms;
-  }
-
-  .animation-delay-600 {
-    animation-delay: 600ms;
-  }
-
-  .animation-delay-800 {
-    animation-delay: 800ms;
-  }
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+  .animation-delay-500 { animation-delay: 500ms; }
+  .animation-delay-600 { animation-delay: 600ms; }
+  .animation-delay-800 { animation-delay: 800ms; }
 
   @keyframes animated-border {
     0% {
@@ -174,14 +177,13 @@
 
   .animated-border:hover {
     background-color: color-mix(in srgb, #26c4b8 15%, transparent);
-   backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     box-shadow: 0 0 20px color-mix(in srgb, #26c4b8 20%, transparent);
   }
 
   .timeline-glow {
-    box-shadow: 0 0 40px
-        color-mix(in srgb, var(--color-primary) 35%, transparent),
+    box-shadow: 0 0 40px color-mix(in srgb, var(--color-primary) 35%, transparent),
       0 0 80px color-mix(in srgb, var(--color-primary) 25%, transparent);
   }
 }

@@ -1,0 +1,24 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "testimonials": "Testimonials",
+    "contact": "Contact Me"
+  },
+  "hero": {
+    "badge": "Software Engineer • React Specialist",
+    "headline1": "Crafting digital",
+    "headline2": "experiences with",
+    "headline_italic": "precision.",
+    "description": "Hi, I'm Donya Mardani — a software engineer specializing in React, Next.js, and TypeScript. I build scalable, performant web applications that users love.",
+    "contact_btn": "Contact Me",
+    "download_cv": "Download CV",
+    "follow_me": "Follow Me:",
+    "available": "Available for work",
+    "exp_years": "+2",
+    "exp_text": "Years Exp",
+    "tech_stack": "Technologies I work with",
+    "scroll": "Scroll"
+  }
+}

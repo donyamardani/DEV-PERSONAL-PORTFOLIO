@@ -4,43 +4,44 @@ import { FaGithub } from 'react-icons/fa';
 import AnimatedBorderButton from '../Components/AnimatedBorderButton';
 
 export default function Projects() {
-  const projects=[
+ const projects = [
   {
     title: "Fintech Dashboard",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A comprehensive financial analytics platform with real-time data visualization and portfolio management.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Tailwind", "NodeJS", "MongoDB"],
+    link: "https://www.loom.com/share/36b5b771f1194fe4928375525f6b4de1",
+    github: "https://github.com/donyamardani/admin-dashbord-base",
   },
   {
     title: "E-Commerce Platform",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A full-featured e-commerce solution with inventory management, seamless checkout, and payment processing.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Redux", "MongoDB", "Tailwind"],
+    link: "https://www.loom.com/share/bfafcdb37256411883a39727c5d3d23c",
+    github: "https://github.com/donyamardani/phone-shop",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Modern Fashion Store",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "A stylish clothing store with category filtering, shopping cart state management, and custom UI components.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Redux", "MUI", "MongoDB"],
+    link: "https://www.loom.com/share/191771fbea3343e9aecac57b31b56945",
+    github: "https://github.com/donyamardani/shopping-site-reaact-project",
   },
   {
-    title: "Project Management Tool",
+    title: "Interactive Developer Portfolio",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A clean, responsive personal portfolio showcasing modern Web Development projects with interactive UI elements.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    tags: ["React", "Tailwind"],
     link: "#",
-    github: "#",
-  },];
+    github: "https://github.com/donyamardani/DEV-PERSONAL-PORTFOLIO",
+  },
+];
   return (
     <section id="projects" className='py-32 relative overflow-hidden '>
       {/* Bg glows */}

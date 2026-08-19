@@ -28,7 +28,7 @@ const skills = [
   "Tailwind CSS",
   "mui",
   "bootstrap",
-  "sas",
+  "scss",
   "Figma",
   "ui,ux",
   "Git",

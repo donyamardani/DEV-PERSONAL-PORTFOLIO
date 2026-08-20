@@ -45,7 +45,7 @@ export default function Hero() {
       {/* bg */}
       <div className="absolute inset-0">
         <img
-          src="/hero-bg.jpg"
+          src={`${import.meta.env.BASE_URL}hero-bg.jpg`}
           alt="hero-bg"
           className="w-full h-full object-cover opacity-40"
         />
@@ -147,7 +147,7 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className='relative glass rounded-3xl p-2 glow-border'>
                 <img
-                  src="/myprofile-photo.png"
+                  src={`${import.meta.env.BASE_URL}myprofile-photo.png`}
                   alt="donya-mardani"
                   className='w-full object-cover rounded-2xl aspect-4/5'
                 />

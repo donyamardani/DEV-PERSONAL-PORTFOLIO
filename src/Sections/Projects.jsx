@@ -80,7 +80,7 @@ export default function Projects() {
               <div className='relative overflow-hidden aspect-video'>
                 <img 
                   className='w-full h-full object-cover transition-transform duration-700 group-hover:scale-110' 
-                  src={project.image} 
+                  src={`${import.meta.env.BASE_URL}project.image`}
                   alt={project.title} 
                 />
                 <div className='absolute inset-0 bg-linear-to-t from-card via-card/5 to-transparent opacity-60' />

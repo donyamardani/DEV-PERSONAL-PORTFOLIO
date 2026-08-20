@@ -7,8 +7,8 @@ export default function Experience() {
     role: "Frontend Engineer",
     company: "Digital Solutions Co.",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+      "Built and maintained multiple React Website for enterprise clients. ",
+    technologies: ["React","Next", "Redux", "tailwind","Mui", "MongoDb"],
     current: true,
   },
   {
@@ -16,8 +16,8 @@ export default function Experience() {
     role: "Junior Developer",
     company: "StartUp Labs",
     description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+      " Collaborated with designers to implement pixel-perfect UI components.",
+    technologies: ["React", "tailwind", "Mui", "JavaScript"],
     current: false,
   },
   {
@@ -25,8 +25,8 @@ export default function Experience() {
     role: "Freelance Developer",
     company: "Self-Employed",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "MySQL"],
+      "Built 10+ project, handling everything from design to deployment.",
+    technologies: ["JavaScript", "Html", "Css"],
     current: false,
   },
 ];

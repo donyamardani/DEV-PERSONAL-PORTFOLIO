@@ -20,5 +20,57 @@
     "exp_text": "Years Exp",
     "tech_stack": "Technologies I work with",
     "scroll": "Scroll"
+  },
+  "about": {
+    "badge": "About Me",
+    "headline_main": "Building the future,",
+    "headline_italic": "one component at a time.",
+    "p1": "I'm a passionate software engineer with over 2 years of experience crafting digital products that make a difference. My journey started with a curiosity for how things work on the web, and it has evolved into a deep expertise in modern frontend technologies.",
+    "p2": "I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications. My approach combines technical excellence with a keen eye for design and user experience.",
+    "p3": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
+    "quote": "\"My mission is to create digital experiences that are not just functional, but truly delightful — products that users love to use and developers love to maintain.\"",
+    "highlights": {
+      "clean_code": {
+        "title": "Clean Code",
+        "description": "Writing maintainable, scalable code that stands the test of time."
+      },
+      "performance": {
+        "title": "Performance",
+        "description": "Optimizing for speed and delivering lightning-fast user experiences."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Working closely with teams to bring ideas to life."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Staying ahead with the latest technologies and best practices."
+      }
+    }
+  },
+  "projects": {
+    "badge": "Featured Work",
+    "headline_main": "Projects that",
+    "headline_italic": "make an impact.",
+    "description": "A selection of my recent work, from complex web applications to innovative tools that solve real-world problems.",
+    "view_all": "View All Projects",
+    "items": [
+      {
+        "title": "Fintech Dashboard",
+        "description": "A comprehensive financial analytics platform with real-time data visualization and portfolio management."
+      },
+      {
+        "title": "E-Commerce Platform",
+        "description": "A full-featured e-commerce solution with inventory management, seamless checkout, and payment processing."
+      },
+      {
+        "title": "Modern Fashion Store",
+        "description": "A stylish clothing store with category filtering, shopping cart state management, and custom UI components."
+      },
+      {
+        "title": "Interactive Developer Portfolio",
+        "description": "A clean, responsive personal portfolio showcasing modern Web Development projects with interactive UI elements."
+      }
+    ]
   }
 }

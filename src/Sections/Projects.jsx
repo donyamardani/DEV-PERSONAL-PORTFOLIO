@@ -59,7 +59,7 @@ export default function Projects() {
           </span>
           <h2 className='text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground'>
             {t('projects.headline_main')}{' '}
-            <span className='font-serif italic font-normal text-white'>
+            <span className='font-serif font-medium text-white'>
               {t('projects.headline_italic')}
             </span>
           </h2>

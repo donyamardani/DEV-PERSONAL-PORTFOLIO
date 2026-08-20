@@ -28,11 +28,17 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }};
+
   return (
     <header className={`fixed top-0 left-0 right-0 transition-all duration-500 ${isScrolled ? "glass-strong border-none py-3" : "bg-transparent py-5"} z-50`}>
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a className="text-xl font-bold tracking-tight hover:text-primary" href="#">
-          PM
+          DM
           <span className='text-primary'>.</span>
         </a>
 
@@ -60,7 +66,7 @@ export default function Navbar() {
             <Globe size={16} />
             <span className="uppercase font-medium">{i18n.language === 'fa' ? 'EN' : 'FA'}</span>
           </button>
-          <Button size="sm">{t('nav.contact')}</Button>
+          <Button onClick={scrollToContact} size="sm">{t('nav.contact')}</Button>
         </div>
 
         {/* Mobile Menu Button */}

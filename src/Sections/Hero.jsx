@@ -34,6 +34,11 @@ export default function Hero() {
     "Git",
     "GitHub Actions",
   ];
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }};
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -86,7 +91,7 @@ export default function Hero() {
                   {t('hero.headline2')}
                 </span>
                 <br />
-                <span className='font-serif italic font-normal text-white'>
+                <span className='font-serif font-medium text-white'>
                   {t('hero.headline_italic')}
                 </span>
               </h1>
@@ -97,7 +102,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className='flex flex-wrap gap-4 animate-fade-in animation-delay-300'>
-              <Button size='lg' className="flex items-center gap-2">
+              <Button size='lg' onClick={scrollToContact} className="flex items-center gap-2">
                 {t('hero.contact_btn')}
                 {i18n.language === 'fa' ? (
                   <ArrowLeft className='w-5 h-5' />

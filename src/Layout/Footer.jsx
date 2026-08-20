@@ -1,37 +1,38 @@
-import {  Heart } from "lucide-react";
-import { IoLogoGithub } from "react-icons/io";
-import { IoLogoLinkedin } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+import React from 'react';
+import { Heart } from "lucide-react";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { FaTelegram, FaInstagram } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 const socialLinks = [
-  { icon: IoLogoGithub , href: "https://github.com/donyamardani", label: "GitHub" },
+  { icon: IoLogoGithub, href: "https://github.com/donyamardani", label: "GitHub" },
   { icon: IoLogoLinkedin, href: "https://www.linkedin.com/in/donya-mardani-293705383/", label: "Linkedin" },
   { icon: FaTelegram, href: "https://t.me/Donya_mardaniii", label: "Telegram" },
-  {icon: FaInstagramSquare,href:"https://www.instagram.com/donya__mardaniiii/",label:"Instagram"}
-];
-
-const footerLinks = [
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { icon: FaInstagram, href: "https://www.instagram.com/donya__mardaniiii/", label: "Instagram" }
 ];
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
+
+  const footerLinks = [
+    { href: "#about", label: t('footer.links.about') },
+    { href: "#projects", label: t('footer.links.projects') },
+    { href: "#experience", label: t('footer.links.experience') },
+    { href: "#contact", label: t('footer.links.contact') },
+  ];
 
   return (
     <footer className="py-12 border-t border-border">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           {/* Logo & Copyright */}
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-start">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              DM<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} DonyaMardani. All rights reserved.
+              © {currentYear} Donya Mardani. {t('footer.rights')}
             </p>
           </div>
 
@@ -54,6 +55,8 @@ export default function Footer() {
               <a
                 key={social.label}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={social.label}
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
@@ -65,4 +68,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-};
+}

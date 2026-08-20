@@ -42,7 +42,7 @@ export default function About() {
 
             <h2 className='text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground'>
               {t('about.headline_main')}{' '}
-              <span className='font-serif italic font-normal text-white'>
+              <span className='font-serif font-medium text-white'>
                 {t('about.headline_italic')}
               </span>
             </h2>

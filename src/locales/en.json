@@ -72,5 +72,105 @@
         "description": "A clean, responsive personal portfolio showcasing modern Web Development projects with interactive UI elements."
       }
     ]
+  },
+  "experience": {
+    "badge": "Career Journey",
+    "headline_main": "Experience that",
+    "headline_italic": "speaks volumes.",
+    "description": "A timeline of my professional growth, from curious beginner to experienced frontend engineer building products at scale.",
+    "items": [
+      {
+        "period": "2025 — Present",
+        "role": "Frontend Engineer",
+        "company": "Digital Solutions Co.",
+        "description": "Built and maintained multiple React websites for enterprise clients."
+      },
+      {
+        "period": "2024 — 2025",
+        "role": "Junior Developer",
+        "company": "StartUp Labs",
+        "description": "Collaborated with designers to implement pixel-perfect UI components."
+      },
+      {
+        "period": "2023 — 2024",
+        "role": "Freelance Developer",
+        "company": "Self-Employed",
+        "description": "Built 10+ projects, handling everything from design to deployment."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "What people say",
+    "headline_main": "Kind words from",
+    "headline_italic": "amazing people.",
+    "items": [
+      {
+        "quote": "she is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
+        "author": "Sarah Chen",
+        "role": "CTO, Tech Innovators Inc."
+      },
+      {
+        "quote": "Working with she was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
+        "author": "Michael Rodriguez",
+        "role": "Product Manager, Digital Solutions"
+      },
+      {
+        "quote": " she helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
+        "author": "Emily Watson",
+        "role": "Engineering Lead,"
+      },
+      {
+        "quote": " he's a fantastic communicator and team player. He elevated everyone around him.",
+        "author": "David Kim",
+        "role": "CEO"
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "headline_main": "Let's build",
+    "headline_italic": "something great.",
+    "description": "Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your name...",
+      "email": "Your email...",
+      "message": "Your message..."
+    },
+    "button": {
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "info_title": "Contact Information",
+    "info_labels": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "info_values": {
+      "location": "Mashhad, IRAN"
+    },
+    "availability": {
+      "title": "Currently Available",
+      "description": "I'm currently open to new opportunities and exciting projects. Whether you need a full-time engineer or a freelance consultant, let's talk!"
+    },
+    "status": {
+      "success": "Message sent successfully!",
+      "error_config": "EmailJS configuration is missing, please check...",
+      "error_default": "Failed to send message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "links": {
+      "about": "About",
+      "projects": "Projects",
+      "experience": "Experience",
+      "contact": "Contact"
+    }
   }
 }

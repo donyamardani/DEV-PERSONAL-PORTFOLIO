@@ -68,7 +68,7 @@ export default function Experience() {
                   style={{ animationDelay: `${(idx + 1) * 150}ms` }}
                 >
                   {/* Timeline Dot */}
-                  <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10 rtl:left-auto rtl:right-0 rtl:md:right-1/2 rtl:md:translate-x-1/2">
+                  <div className="absolute left-0 md:left-1/2 top-0 w-3 h-3 bg-primary rounded-full -translate-x-1/2 ring-4 ring-background z-10 rtl:left-auto rtl:right-0 rtl:translate-x-1/2 rtl:md:right-1/2">
                     {exp.current && (
                       <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-75" />
                     )}

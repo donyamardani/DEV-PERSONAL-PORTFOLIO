@@ -135,7 +135,7 @@ export default function Projects() {
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton className="inline-flex items-center gap-2">
-            <span>{t('projects.view_all')}</span>
+            <a href='https://github.com/donyamardani'>{t('projects.view_all')}</a>
             <ArrowIcon className='w-5 h-5' />
           </AnimatedBorderButton>
         </div>

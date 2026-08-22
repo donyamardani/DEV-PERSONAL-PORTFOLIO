@@ -50,7 +50,7 @@ export default function About() {
             <div className='space-y-4 text-muted-foreground animate-fade-in animation-delay-200'>
               <p>{t('about.p1')}</p>
               <p>{t('about.p2')}</p>
-              <p>{t('about.p3')}</p>
+              
             </div>
 
             <div className='glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300'>

@@ -12,25 +12,25 @@ export default function Projects() {
 
   const projectData = [
     {
-      image: "/projects/project1.png",
+      image: "projects/project1.png",
       tags: ["React", "Tailwind", "NodeJS", "MongoDB"],
       link: "https://www.loom.com/share/36b5b771f1194fe4928375525f6b4de1",
       github: "https://github.com/donyamardani/admin-dashbord-base",
     },
     {
-      image: "/projects/project2.png",
+      image: "projects/project2.png",
       tags: ["React", "Redux", "MongoDB", "Tailwind"],
       link: "https://www.loom.com/share/bfafcdb37256411883a39727c5d3d23c",
       github: "https://github.com/donyamardani/phone-shop",
     },
     {
-      image: "/projects/project3.png",
+      image: "projects/project3.png",
       tags: ["React", "Redux", "MUI", "MongoDB"],
       link: "https://www.loom.com/share/191771fbea3343e9aecac57b31b56945",
       github: "https://github.com/donyamardani/shopping-site-reaact-project",
     },
     {
-      image: "/projects/project4.png",
+      image: "projects/project4.png",
       tags: ["React", "Tailwind"],
       link: "#",
       github: "https://github.com/donyamardani/DEV-PERSONAL-PORTFOLIO",

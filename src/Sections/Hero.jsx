@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../Components/Button'
 import AnimatedBorderButton from '../Components/AnimatedBorderButton'
 import { useTranslation } from 'react-i18next'
-
+import  { useState } from 'react'
 import {
   ArrowRight,
   ArrowLeft,
@@ -20,9 +20,11 @@ export default function Hero() {
   const { t, i18n } = useTranslation();
 
   const skills = [
+    "JavaScript",
     "React",
-    "Next.js",
+    "Next",
     "TypeScript",
+    "Redux",
     "Node.js",
     "MongoDB",
     "Tailwind CSS",
@@ -39,6 +41,22 @@ export default function Hero() {
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }};
+      const [isDownloading, setIsDownloading] = useState(false);
+
+  const handleDownloadCV = () => {
+    setIsDownloading(true);
+    const cvUrl = `${import.meta.env.BASE_URL}cv/Donya-Mardani-CV.pdf`;
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Donya-Mardani-CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setTimeout(() => setIsDownloading(false), 1500);
+  };
+
+  
+
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -111,10 +129,14 @@ export default function Hero() {
                 )}
               </Button>
 
-              <AnimatedBorderButton className="flex items-center gap-2">
-                <Download className="w-5 h-5" />
-                {t('hero.download_cv')}
-              </AnimatedBorderButton>
+               <AnimatedBorderButton
+                 className="flex items-center gap-2"
+                 onClick={handleDownloadCV}
+                 disabled={isDownloading}
+               >
+                 <Download className={`w-5 h-5 ${isDownloading ? 'animate-bounce' : ''}`} />
+                 {isDownloading ? t('hero.downloading') : t('hero.download_cv')}
+               </AnimatedBorderButton>
             </div>
 
             {/* Social links */}

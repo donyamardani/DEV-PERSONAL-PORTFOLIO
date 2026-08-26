@@ -4,20 +4,21 @@
     "projects": "Projects",
     "experience": "Experience",
     "testimonials": "Testimonials",
-    "contact": "Contact Me"
+    "contact": "Contact"
   },
   "hero": {
     "badge": "Software Engineer • React Specialist",
-    "headline1": "Crafting digital",
-    "headline2": "experiences with",
-    "headline_italic": "precision.",
-    "description": "Hi, I'm Donya Mardani — a software engineer specializing in React, Next.js, and TypeScript. I build scalable, performant web applications that users love.",
-    "contact_btn": "Contact Me",
+    "headline1": "Crafting Digital",
+    "headline2": "Experiences with",
+    "headline_italic": "Precision.",
+    "description": "Hi, I'm Donya Mardani — a software engineer specializing in React, Next.js, and TypeScript. I build web applications with clean, maintainable, and high-performance code.",
+    "contact_btn": "Get in Touch",
     "download_cv": "Download CV",
-    "follow_me": "Follow Me:",
+    "downloading": "Downloading...",
+    "follow_me": "Follow me:",
     "available": "Available for work",
-    "exp_years": "+2",
-    "exp_text": "Years Exp",
+    "exp_years": "2+",
+    "exp_text": "Years of Experience",
     "tech_stack": "Technologies I work with",
     "scroll": "Scroll"
   },
@@ -25,113 +26,113 @@
     "badge": "About Me",
     "headline_main": "Building the future,",
     "headline_italic": "one component at a time.",
-    "p1": "I'm a passionate software engineer with over 2 years of experience crafting digital products that make a difference. My journey started with a curiosity for how things work on the web, and it has evolved into a deep expertise in modern frontend technologies.",
-    "p2": "I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications. My approach combines technical excellence with a keen eye for design and user experience.",
-    "quote": "\"My mission is to create digital experiences that are not just functional, but truly delightful — products that users love to use and developers love to maintain.\"",
+    "p1": "I'm a passionate software engineer with over 2 years of experience building digital products that aim to make a real impact. My journey started with curiosity about how the web works and grew into a focus on modern front-end technologies.",
+    "p2": "I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications. My approach pairs technical excellence with a close attention to design and user experience.",
+    "quote": "\"My mission is to create digital experiences that aren't just functional, but genuinely enjoyable — products people love to use, and code developers love to maintain.\"",
     "highlights": {
       "clean_code": {
         "title": "Clean Code",
-        "description": "Writing maintainable, scalable code that stands the test of time."
+        "description": "Writing maintainable, scalable code that holds up over time."
       },
       "performance": {
         "title": "Performance",
-        "description": "Optimizing for speed and delivering lightning-fast user experiences."
+        "description": "Optimizing for speed and delivering a lightning-fast user experience."
       },
       "collaboration": {
-        "title": "Collaboration",
+        "title": "Team Collaboration",
         "description": "Working closely with teams to bring ideas to life."
       },
       "innovation": {
         "title": "Innovation",
-        "description": "Staying ahead with the latest technologies and best practices."
+        "description": "Staying ahead of the curve with the latest technologies and best practices."
       }
     }
   },
   "projects": {
-    "badge": "Featured Work",
+    "badge": "Featured Projects",
     "headline_main": "Projects that",
     "headline_italic": "make an impact.",
-    "description": "A selection of my recent work, from complex web applications to innovative tools that solve real-world problems.",
+    "description": "A selection of my recent work, built to show off both technical skill and problem-solving.",
     "view_all": "View All Projects",
     "items": [
       {
-        "title": "Fintech Dashboard",
-        "description": "A comprehensive financial analytics platform with real-time data visualization and portfolio management."
+        "title": "Admin Dashboard & Data Management Panel",
+        "description": "A full-featured data management platform with real-time data visualization."
       },
       {
         "title": "E-Commerce Platform",
-        "description": "A full-featured e-commerce solution with inventory management, seamless checkout, and payment processing."
+        "description": "A complete online store solution with inventory management, smooth checkout, and order processing, featured in the dashboard project above."
       },
       {
-        "title": "Modern Fashion Store",
-        "description": "A stylish clothing store with category filtering, shopping cart state management, and custom UI components."
+        "title": "Modern Clothing Store",
+        "description": "A polished online store with category filters, cart management, and custom-built UI components."
       },
       {
-        "title": "Interactive Developer Portfolio",
-        "description": "A clean, responsive personal portfolio showcasing modern Web Development projects with interactive UI elements."
+        "title": "Interactive Portfolio",
+        "description": "A clean, responsive personal portfolio for showcasing web projects, with interactive elements and full English/Persian bilingual support."
       }
     ]
   },
   "experience": {
-    "badge": "Career Journey",
+    "badge": "Career Path",
     "headline_main": "Experience that",
-    "headline_italic": "speaks volumes.",
-    "description": "A timeline of my professional growth, from curious beginner to experienced frontend engineer building products at scale.",
+    "headline_italic": "speaks for itself.",
+    "description": "A timeline of my professional growth — from a curious beginner to a front-end engineer.",
     "items": [
       {
-        "period": "2025 — Present",
-        "role": "Frontend Engineer",
-        "company": "Digital Solutions Co.",
-        "description": "Built and maintained multiple React websites for enterprise clients."
-      },
-      {
-        "period": "2024 — 2025",
-        "role": "Junior Developer",
-        "company": "StartUp Labs",
-        "description": "Collaborated with designers to implement pixel-perfect UI components."
+        "period": "2024 — Present",
+        "role": "Front-End Developer",
+        "company": "Freelance",
+        "description": "Building and maintaining several React-based websites for enterprise clients."
       },
       {
         "period": "2023 — 2024",
-        "role": "Freelance Developer",
+        "role": "Junior Developer",
+        "company": "Startup",
+        "description": "Partnered with designers to implement UI components."
+      },
+      {
+        "period": "2022 — 2023",
+        "role": "Freelancer",
         "company": "Self-Employed",
-        "description": "Built 10+ projects, handling everything from design to deployment."
+        "description": "Designed and built over 10 complete projects, from concept and design through deployment."
       }
     ]
   },
   "testimonials": {
-    "badge": "What people say",
+    "badge": "What People Say",
     "headline_main": "Kind words from",
     "headline_italic": "amazing people.",
     "items": [
       {
-        "quote": "she is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
-        "author": "Sarah Chen",
-        "role": "CTO, Tech Innovators Inc."
+        "quote": "Her attention to detail and ability to turn complex requirements into simple solutions is outstanding.",
+        "author": "Sara",
+        "role": "CTO"
       },
       {
-        "quote": "Working with she was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-        "author": "Michael Rodriguez",
-        "role": "Product Manager, Digital Solutions"
+        "quote": "Working with her was a turning point for the project. She delivered work that set a new standard for our team.",
+        "author": "Maziar",
+        "role": "Product Manager"
       },
       {
-        "quote": " she helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-        "author": "Emily Watson",
-        "role": "Engineering Lead,"
+        "quote": "She helped us rebuild our entire front end in a short amount of time.",
+        "author": "Diba",
+        "role": "Technical Lead"
       },
       {
-        "quote": " he's a fantastic communicator and team player. He elevated everyone around him.",
-        "author": "David Kim",
-        "role": "CEO"
+        "quote": "Technically excellent, and a great communicator who's a real asset to any team. She raises the bar for everyone around her.",
+        "author": "Davood",
+        "role": "Manager"
       }
     ]
   },
   "contact": {
-    "badge": "Get In Touch",
-    "headline_main": "Let's build",
-    "headline_italic": "something great.",
-    "description": "Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.",
+    "badge": "Get in Touch",
+    "headline_main": "Let's build something",
+    "headline_italic": "amazing together.",
+    "description": "Have a project in mind? I'd love to hear about it. Send a message and let's talk about how we can work together.",
     "labels": {
-      "name": "Name",
+      "name": "Your Name",
       "email": "Email",
       "message": "Message"
     },
@@ -151,16 +152,16 @@
       "location": "Location"
     },
     "info_values": {
-      "location": "Mashhad, IRAN"
+      "location": "Mashhad, Iran"
     },
     "availability": {
-      "title": "Currently Available",
-      "description": "I'm currently open to new opportunities and exciting projects. Whether you need a full-time engineer or a freelance consultant, let's talk!"
+      "title": "Open to New Projects",
+      "description": "I'm currently open to new job opportunities and exciting projects, whether full-time or freelance. I'd love to chat!"
     },
     "status": {
-      "success": "Message sent successfully!",
-      "error_config": "EmailJS configuration is missing, please check...",
-      "error_default": "Failed to send message"
+      "success": "Your message was sent successfully!",
+      "error_config": "EmailJS configuration is incomplete, please check your settings...",
+      "error_default": "Something went wrong sending your message"
     }
   },
   "footer": {

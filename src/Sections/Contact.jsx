@@ -114,9 +114,9 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto justify-items-center">
           {/* Form */}
-          <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+          <div className="w-full max-w-xl glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
@@ -169,7 +169,7 @@ export default function Contact() {
                 ) : (
                   <>
                     <span>{t('contact.button.send')}</span>
-                    <Send className={`w-5 h-5 ${isRtl ? '-scale-x-100' : ''}}`} />
+                    <Send className={`w-5 h-5 ${isRtl ? '-scale-x-100' : ''}`} />
                   </>
                 )}
               </Button>
@@ -194,7 +194,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6 animate-fade-in animation-delay-400">
+          <div className="w-full max-w-xl space-y-6 animate-fade-in animation-delay-400">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semibold mb-6">{t('contact.info_title')}</h3>
               <div className="space-y-4">

@@ -154,8 +154,8 @@ export default function Hero() {
                   key={index}
                   href={social.href}
                   target="_blank"
-                  rel="noreferrer"
-                  className='p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'
+                  rel="noopener noreferrer"
+                  className='relative z-50 p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300'
                 >
                   <social.icon className="w-5 h-5" />
                 </a>

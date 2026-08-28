@@ -13,6 +13,7 @@ export default function Navbar() {
     { href: "#projects", label: t('nav.projects') },
     { href: "#experience", label: t('nav.experience') },
     { href: "#testimonials", label: t('nav.testimonials') },
+     { href: "#contact", label: t('nav.contact') },
   ];
 
   const toggleLanguage = () => {
@@ -92,12 +93,15 @@ export default function Navbar() {
                 href={link.href} 
                 key={index}
                 className="text-lg text-muted-foreground hover:text-foreground"
-                onClick={() => setMenuOpen(false)}
+                onClick={() => setMenuOpen(false)
+                }
               >
                 {link.label}
               </a>
             ))}
-            <Button onClick={() => setMenuOpen(false)}>{t('nav.contact')}</Button>
+            <Button onClick={() =>{ setMenuOpen(false);
+              scrollToContact();}
+            }>{t('nav.contact')}</Button>
           </div>
         </div>
       )}

@@ -13,7 +13,7 @@ export default function Navbar() {
     { href: "#projects", label: t('nav.projects') },
     { href: "#experience", label: t('nav.experience') },
     { href: "#testimonials", label: t('nav.testimonials') },
-     { href: "#contact", label: t('nav.contact') },
+     
   ];
 
   const toggleLanguage = () => {

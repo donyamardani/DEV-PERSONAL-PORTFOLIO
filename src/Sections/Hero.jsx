@@ -175,7 +175,7 @@ export default function Hero() {
                 />
                 
                 {/* Floating badge */}
-                <div className='absolute bottom-4 end-4 px-4 py-3 rounded-xl animate-float glass'>
+                <div className='absolute bottom-4 inset-e-4 px-4 py-3 rounded-xl animate-float glass'>
                   <div className='flex gap-3 items-center'>
                     <div className='w-3 h-3 bg-green-500 rounded-full animate-pulse' />
                     <span className='text-sm font-medium'>
@@ -185,7 +185,7 @@ export default function Hero() {
                 </div>
 
                 {/* Status badge */}
-                <div className='absolute start-4 top-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
+                <div className='absolute inset-s-4 top-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500'>
                   <div className='text-2xl text-primary font-bold'>
                     {t('hero.exp_years')}
                   </div>
@@ -204,12 +204,12 @@ export default function Hero() {
             {t('hero.tech_stack')}
           </p>
           <div className='relative overflow-hidden'>
-            <div className="absolute start-0 top-0 bottom-0 w-32 bg-linear-to-r from-background to-transparent z-10" />
-            <div className="absolute end-0 top-0 bottom-0 w-32 bg-linear-to-l from-background to-transparent z-10" />
+            <div className="absolute inset-s-0 top-0 bottom-0 w-32 bg-linear-to-r from-background to-transparent z-10" />
+            <div className="absolute inset-e-0 top-0 bottom-0 w-32 bg-linear-to-l from-background to-transparent z-10" />
             <div className='flex animate-marquee'>
               {[...skills, ...skills].map((skill, index) => (
                 <div key={index} className='px-8 py-4 shrink-0'>
-                  <span className='text-xl text-muted-foreground/50 font-semibold hover:text-muted-foreground transition-colors'>
+                  <span className='text-xl md:text-muted-foreground font-semibold md:hover:text-foreground  transition-colors'>
                     {skill}
                   </span>
                 </div>

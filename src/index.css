@@ -65,7 +65,7 @@
     background-color: color-mix(in srgb, var(--color-surface) 80%, transparent);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    /* بردر شفاف شد تا خط دور هدر هنگام اسکرول حذف شود */
+   
     border: 1px solid transparent; 
   }
 

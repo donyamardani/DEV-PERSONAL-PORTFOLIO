@@ -48,7 +48,7 @@ export default function Hero() {
     const cvUrl = `${import.meta.env.BASE_URL}cv/Donya-Mardani-CV.pdf`;
     const link = document.createElement('a');
     link.href = cvUrl;
-    link.download = 'Donya-Mardani-CV.pdf';
+    link.download = 'Donya_Mardani_CV_Persian.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "about": "About",
+    "about": "About Me",
     "projects": "Projects",
     "experience": "Experience",
     "testimonials": "Testimonials",
@@ -11,103 +11,103 @@
     "headline1": "Crafting Digital",
     "headline2": "Experiences with",
     "headline_italic": "Precision.",
-    "description": "Hi, I'm Donya Mardani — a software engineer specializing in React, Next.js, and TypeScript. I build web applications with clean, maintainable, and high-performance code.",
+    "description": "Hi, I'm Donya Mardani — a software engineer specializing in React, Next.js, and TypeScript. I build fast, scalable web applications with clean, maintainable code and a strong focus on user experience.",
     "contact_btn": "Get in Touch",
     "download_cv": "Download CV",
     "downloading": "Downloading...",
     "follow_me": "Follow me:",
-    "available": "Available for work",
-    "exp_years": "2+",
+    "available": "Available for Work",
+    "exp_years": "+2",
     "exp_text": "Years of Experience",
-    "tech_stack": "Technologies I work with",
+    "tech_stack": "Technologies I Work With",
     "scroll": "Scroll"
   },
   "about": {
     "badge": "About Me",
-    "headline_main": "Building the future,",
-    "headline_italic": "one component at a time.",
-    "p1": "I'm a passionate software engineer with over 2 years of experience building digital products that aim to make a real impact. My journey started with curiosity about how the web works and grew into a focus on modern front-end technologies.",
-    "p2": "I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications. My approach pairs technical excellence with a close attention to design and user experience.",
-    "quote": "\"My mission is to create digital experiences that aren't just functional, but genuinely enjoyable — products people love to use, and code developers love to maintain.\"",
+    "headline_main": "Building the Future,",
+    "headline_italic": "One Component at a Time.",
+    "p1": "I'm a passionate software engineer with over 2 years of experience building digital products that aim to make a real impact. My journey started with a curiosity about how the web works and has evolved into a strong focus on modern frontend technologies.",
+    "p2": "I specialize in React, Next.js, and TypeScript, building everything from polished landing pages to complex web applications. My approach combines technical excellence with a strong eye for design and user experience.",
+    "quote": "My mission is to create digital experiences that are not only functional, but genuinely enjoyable — products that are easy for users to navigate and easy for developers to maintain.",
     "highlights": {
       "clean_code": {
         "title": "Clean Code",
-        "description": "Writing maintainable, scalable code that holds up over time."
+        "description": "Writing maintainable, scalable code that remains reliable and valuable as products evolve."
       },
       "performance": {
         "title": "Performance",
-        "description": "Optimizing for speed and delivering a lightning-fast user experience."
+        "description": "Optimizing applications for speed and delivering fast, smooth, and enjoyable user experiences."
       },
       "collaboration": {
-        "title": "Team Collaboration",
-        "description": "Working closely with teams to bring ideas to life."
+        "title": "Collaboration",
+        "description": "Working closely with teams to turn ideas into thoughtful, practical, and successful products."
       },
       "innovation": {
         "title": "Innovation",
-        "description": "Staying ahead of the curve with the latest technologies and best practices."
+        "description": "Keeping up with modern technologies, best practices, and evolving standards to build better solutions."
       }
     }
   },
   "projects": {
     "badge": "Featured Projects",
-    "headline_main": "Projects that",
-    "headline_italic": "make an impact.",
-    "description": "A selection of my recent work, built to show off both technical skill and problem-solving.",
+    "headline_main": "Projects That",
+    "headline_italic": "Make an Impact.",
+    "description": "A selection of my recent work, showcasing my frontend development skills, problem-solving approach, and attention to detail.",
     "view_all": "View All Projects",
     "items": [
       {
-        "title": "Admin Dashboard & Data Management Panel",
-        "description": "A full-featured data management platform with real-time data visualization."
+        "title": "Admin & Information Management Dashboard",
+        "description": "A comprehensive management dashboard featuring data visualization, real-time information, and an intuitive interface for efficient administration."
       },
       {
-        "title": "E-Commerce Platform",
-        "description": "A complete online store solution with inventory management, smooth checkout, and order processing, featured in the dashboard project above."
+        "title": "E-commerce Platform",
+        "description": "A complete e-commerce solution with inventory management, a smooth checkout experience, and order processing, integrated with the admin dashboard."
       },
       {
-        "title": "Modern Clothing Store",
-        "description": "A polished online store with category filters, cart management, and custom-built UI components."
+        "title": "Modern Fashion Store",
+        "description": "A stylish online fashion store featuring category filters, shopping cart management, and custom-built UI components."
       },
       {
         "title": "Interactive Portfolio",
-        "description": "A clean, responsive personal portfolio for showcasing web projects, with interactive elements and full English/Persian bilingual support."
+        "description": "A responsive and modern personal portfolio designed to showcase web projects, featuring interactive elements and support for both English and Persian languages."
       }
     ]
   },
   "experience": {
-    "badge": "Career Path",
-    "headline_main": "Experience that",
-    "headline_italic": "speaks for itself.",
-    "description": "A timeline of my professional growth — from a curious beginner to a front-end engineer.",
+    "badge": "Career Journey",
+    "headline_main": "Experience That",
+    "headline_italic": "Speaks for Itself.",
+    "description": "A timeline of my professional growth — from a curious beginner to a frontend-focused software engineer.",
     "items": [
       {
         "period": "2024 — Present",
-        "role": "Front-End Junior Developer",
+        "role": "Junior Software Developer",
         "company": "Freelance",
-        "description": "Building and maintaining several React-based websites for enterprise clients."
+        "description": "Collaborating with Alireza Aghaei's team to develop and maintain multiple React-based websites for organizational clients."
       },
       {
         "period": "2023 — 2024",
-        "role": "Internship Developer",
+        "role": "Frontend Development Intern",
         "company": "Startup",
-        "description": "Partnered with designers to implement UI components."
+        "description": "Worked closely with the Rashed Academy design team to translate UI concepts into responsive and reusable frontend components."
       },
       {
         "period": "2022 — 2023",
-        "role": "Freelancer",
+        "role": "Freelance Developer",
         "company": "Self-Employed",
-        "description": "Designed and built over 10 complete projects, from concept and design through deployment."
+        "description": "Designed and developed more than 10 complete web projects, covering the process from initial ideas and implementation to deployment."
       }
     ]
   },
   "testimonials": {
     "badge": "What People Say",
-    "headline_main": "Kind words from",
-    "headline_italic": "amazing people.",
+    "headline_main": "Kind Words from",
+    "headline_italic": "Amazing People.",
     "items": [
       {
-        "quote": "Her attention to detail and ability to turn complex requirements into simple solutions is outstanding.",
+        "quote": "Her attention to detail and ability to turn complex requirements into simple, effective solutions are truly impressive.",
         "author": "Sara",
-        "role": "CTO"
+        "role": "Technology Manager"
       },
       {
         "quote": "Working with her was a turning point for the project. She delivered work that set a new standard for our team.",
@@ -115,12 +115,12 @@
         "role": "Product Manager"
       },
       {
-        "quote": "She helped us rebuild our entire front end in a short amount of time.",
+        "quote": "She helped us rebuild our entire frontend in a remarkably short amount of time.",
         "author": "Diba",
         "role": "Technical Lead"
       },
       {
-        "quote": "Technically excellent, and a great communicator who's a real asset to any team. She raises the bar for everyone around her.",
+        "quote": "She is technically strong, an excellent communicator, and a valuable team member. She naturally raises the level of everyone around her.",
         "author": "Davood",
         "role": "Manager"
       }
@@ -128,9 +128,9 @@
   },
   "contact": {
     "badge": "Get in Touch",
-    "headline_main": "Let's build something",
-    "headline_italic": "amazing together.",
-    "description": "Have a project in mind? I'd love to hear about it. Send a message and let's talk about how we can work together.",
+    "headline_main": "Let's Build Something",
+    "headline_italic": "Great Together.",
+    "description": "Have a project in mind? I'd love to hear about it. Send me a message and let's talk about how we can work together.",
     "labels": {
       "name": "Your Name",
       "email": "Email",
@@ -155,13 +155,13 @@
       "location": "Mashhad, Iran"
     },
     "availability": {
-      "title": "Open to New Projects",
-      "description": "I'm currently open to new job opportunities and exciting projects, whether full-time or freelance. I'd love to chat!"
+      "title": "Available for New Projects",
+      "description": "I'm currently open to exciting new projects and career opportunities. Whether you're looking for a full-time developer or a freelance collaborator, I'd be happy to start a conversation."
     },
     "status": {
-      "success": "Your message was sent successfully!",
-      "error_config": "EmailJS configuration is incomplete, please check your settings...",
-      "error_default": "Something went wrong sending your message"
+      "success": "Your message has been sent successfully!",
+      "error_config": "EmailJS configuration is incomplete. Please check your settings...",
+      "error_default": "Something went wrong while sending your message."
     }
   },
   "footer": {

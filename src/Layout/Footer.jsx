@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 
 const socialLinks = [
   { icon: IoLogoGithub, href: "https://github.com/donyamardani", label: "GitHub" },
-  { icon: IoLogoLinkedin, href: "https://www.linkedin.com/in/donya-mardani-293705383/", label: "Linkedin" },
+  { icon: IoLogoLinkedin, href: "https://www.linkedin.com/in/donya-mardani", label: "Linkedin" },
   { icon: FaTelegram, href: "https://t.me/Donya_mardaniii", label: "Telegram" },
   { icon: FaInstagram, href: "https://www.instagram.com/donya__mardaniiii/", label: "Instagram" }
 ];

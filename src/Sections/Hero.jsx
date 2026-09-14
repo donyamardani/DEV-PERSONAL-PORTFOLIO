@@ -146,7 +146,7 @@ export default function Hero() {
               </span>
               {[
                 { icon: FaGithub, href: "https://github.com/donyamardani" },
-                { icon: FaLinkedin, href: "https://www.linkedin.com/in/donya-mardani-293705383/" },
+                { icon: FaLinkedin, href: "https://www.linkedin.com/in/donya-mardani" },
                 { icon: FaTelegram, href: "https://t.me/Donya_mardaniii" },
                 { icon: FaInstagram, href: "https://www.instagram.com/donya__mardaniiii/" }
               ].map((social, index) => (
